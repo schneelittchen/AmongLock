@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+	
+		<dict>
+			<key>cellClass</key>
+			<string>DuoTwitterCell</string>
+			<key>firstLabel</key>
+			<string>🌸 Litten</string>
+			<key>firstAccount</key>
+			<string>schneelittchen</string>
+			<key>secondLabel</key>
+			<string>BigBrianIlel</string>
+			<key>secondAccount</key>
+			<string>BigIlel</string>
+			<key>height</key>
+			<real>57</real>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Background Video</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>enableBackgroundVideo</string>
+			<key>label</key>
+			<string>Enable</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>useAsWallpaper</string>
+			<key>label</key>
+			<string>Use As Wallpaper</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Ejection Video</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>enableEjectionVideo</string>
+			<key>label</key>
+			<string>Enable</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Bulbs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>enableBulbs</string>
+			<key>label</key>
+			<string>Enable</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Passcode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>themePasscode</string>
+			<key>label</key>
+			<string>Theme Passcode</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>wrongPasscodeAnimation</string>
+			<key>label</key>
+			<string>Wrong Passcode Animation</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Audio</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>passcodeAppearSound</string>
+			<key>label</key>
+			<string>Passcode Appears</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>passcodeDisappearSound</string>
+			<key>label</key>
+			<string>Passcode Disappears</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>wrongPasscodeSound</string>
+			<key>label</key>
+			<string>Wrong Passcode</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>passcodeButtonSound</string>
+			<key>label</key>
+			<string>Passcode Button Press</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Hiding</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>hideEmergencyButton</string>
+			<key>label</key>
+			<string>Hide Emergency Call Button</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>hideCancelButton</string>
+			<key>label</key>
+			<string>Hide Backspace/Cancel Button</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>hideFaceIDAnimation</string>
+			<key>label</key>
+			<string>Hide FaceID Animation</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Miscellaneous</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>tapToDismissEjection</string>
+			<key>label</key>
+			<string>Tap To Skip Ejection</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.amonglockpreferences</string>
+			<key>key</key>
+			<string>changeFrameWhenRotating</string>
+			<key>label</key>
+			<string>Change Frame When Rotating</string>
+			<key>PostNotification</key>
+			<string>love.litten.amonglockpreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other Options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reset Preferences</string>
+			<key>action</key>
+			<string>resetPrompt</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contributions</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Contributors</string>
+ 			<key>detail</key>
+ 			<string>ALKContributorsSubPrefsListController</string>
+ 			<key>ALKSub</key>
+ 			<string>contributorsSub</string>
+ 		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>You Might Like:</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Nita ☀</string>
+			<key>subtitle</key>
+			<string>Replace your carrier with a weather emoji</string>
+			<key>icon</key>
+			<string>Nita.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/nta/</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Violet 🎀</string>
+			<key>subtitle</key>
+			<string>Make your wallpaper your song's artwork</string>
+			<key>icon</key>
+			<string>Violet.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/vio/</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>AmongLock By Litten, Designs By BigBrianIlel</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Discord</string>
+			<key>subtitle</key>
+			<string>Chat with us 👾</string>
+			<key>url</key>
+			<string>https://discord.com/invite/fPHN8KG</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>subtitle</key>
+			<string>GitHub 👻</string>
+			<key>url</key>
+			<string>https://github.com/schneelittchen/AmongLock</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Donate To Litten</string>
+			<key>subtitle</key>
+			<string>Appreciated 💝</string>
+			<key>url</key>
+			<string>https://paypal.me/Litteeen</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<key>PSGroupCell</key>
+			<key>footerText</key>
+			<string>wishing on a star</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>footerAlignment</key>
+			<real>1</real>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>AmongLock</string>
+</dict>
+</plist>

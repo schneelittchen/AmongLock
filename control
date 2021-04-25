@@ -1,0 +1,12 @@
+Package: love.litten.amonglock
+Name: AmongLock 👻
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
+Version: 1.1.5
+Architecture: iphoneos-arm
+Description: You were not the owner of this device
+Maintainer: Litten
+Author: Litten & BigIlel
+Section: Tweaks
+Depiction: https://repo.litten.love/depictions/alk/index.html
+SileoDepiction: https://repo.litten.love/depictions/alk/alk.json
+Icon: https://repo.litten.love/depictions/alk/assets/icon.png
